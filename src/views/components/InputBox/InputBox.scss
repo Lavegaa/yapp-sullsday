@@ -1,0 +1,63 @@
+@import "../../style/index.scss";
+
+.input-box {
+  display: block;
+  width: 85%;
+  margin: auto;
+  background: $main-white;
+  &__wrapper {
+    display: block;
+    width: 100%;
+    height: 24pt;
+    border-bottom: 1px solid $main-black-3;
+    color: $main-black-3;
+
+    &-focus {
+      border-color: $main-black-1;
+      color: $main-black-1;
+    }
+
+    &-notemail {
+      border-color: $main-paleRed;
+    }
+  }
+
+  &__input {
+    display: block;
+    float: left;
+    width: 80%;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    border: none;
+    outline: none;
+    color: $main-black-3;
+  }
+  &__input:focus {
+    color: $main-black-1;
+  }
+
+  &__remove-btn {
+    display: block;
+    float: right;
+    width: 24px;
+    text-align: center;
+  }
+
+  &__text {
+    display: block;
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 200;
+    color: $main-white;
+    &-caution {
+      color: $main-paleRed;
+    }
+  }
+}
+
+.check__icon {
+  display: block;
+  float: right;
+  width: 24px;
+  height: 24px;
+}

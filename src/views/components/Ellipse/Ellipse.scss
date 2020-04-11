@@ -1,0 +1,28 @@
+@import "../../style/index.scss";
+
+.ellipse {
+  display: inline-block;
+  min-width: 5%;
+  margin: 5pt;
+  border-radius: 12pt;
+  background: $main-butterscotch;
+  color: $main-black-5;
+  text-align: center;
+
+  &-toggle {
+    box-shadow: 1pt 1pt 1pt $main-black-4;
+    background: $main-white;
+    color: $main-black-3;
+  }
+
+  &-grey {
+    background: $main-black-4;
+    color: $main-black-1;
+  }
+
+  &__text {
+    display: inline-block;
+    padding: 4pt 10pt 4pt 10pt;
+    font-size: 10pt;
+  }
+}
